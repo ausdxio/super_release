@@ -78,13 +78,11 @@
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element minOccurs="0" maxOccurs="1" ref="tns:Phone_usageCode"/>
-        <xsd:element minOccurs="0" maxOccurs="1" ref="tns:Phone_areaCode"/>
         <xsd:element minOccurs="0" maxOccurs="1" ref="tns:Phone_number"/>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
   <xsd:element name="Phone_usageCode" id="Phone_usageCode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
-  <xsd:element name="Phone_areaCode" id="Phone_areaCode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="Phone_number" id="Phone_number" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="Request_receiver" id="Request_receiver" substitutionGroup="xbrli:tuple">
     <xsd:complexType>

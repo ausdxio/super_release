@@ -97,7 +97,6 @@
   <xs:complexType name="Phone">
     <xs:sequence>
       <xs:element name="usageCode" type="xs:string"/>
-      <xs:element name="areaCode" type="xs:string"/>
       <xs:element name="number" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>

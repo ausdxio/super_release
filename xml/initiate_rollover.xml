@@ -16,7 +16,6 @@
     </email>
     <phone>
       <usageCode>foo</usageCode>
-      <areaCode>foo</areaCode>
       <number>foo</number>
     </phone>
   </sender>

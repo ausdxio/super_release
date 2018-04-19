@@ -1,0 +1,17 @@
+<Request>
+  <sender>foo</sender>
+  <start>foo</start>
+  <end>foo</end>
+  <name>foo</name>
+  <fund>
+    <abn>foo</abn>
+    <name>foo</name>
+    <ebms3Profile>foo</ebms3Profile>
+    <version>foo</version>
+    <products>
+      <product>
+        <restrictions>true</restrictions>
+      </product>
+    </products>
+  </fund>
+</Request>

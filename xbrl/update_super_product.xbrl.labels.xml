@@ -1,0 +1,105 @@
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://ausdx.io/label" xlink:type="simple" xlink:href="update_super_product.xbrl.xsd#label"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/label">
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request" xlink:label="loc_Request_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_label">Request</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_label" xlink:to="lbl_Request_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_sender" xlink:label="loc_Request_sender_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_sender_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_sender_label">sender</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_sender_label" xlink:to="lbl_Request_sender_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_start" xlink:label="loc_Request_start_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_start_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_start_label">start</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_start_label" xlink:to="lbl_Request_start_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_end" xlink:label="loc_Request_end_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_end_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_end_label">end</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_end_label" xlink:to="lbl_Request_end_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_name" xlink:label="loc_Request_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_name_label" xlink:to="lbl_Request_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_fund" xlink:label="loc_Request_fund_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_fund_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_fund_label">fund</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_fund_label" xlink:to="lbl_Request_fund_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_abn" xlink:label="loc_Fund_abn_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_abn_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_abn_label">abn</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_abn_label" xlink:to="lbl_Fund_abn_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_name" xlink:label="loc_Fund_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_name_label" xlink:to="lbl_Fund_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_ebms3Profile" xlink:label="loc_Fund_ebms3Profile_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_ebms3Profile_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_ebms3Profile_label">ebms3Profile</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_ebms3Profile_label" xlink:to="lbl_Fund_ebms3Profile_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_version" xlink:label="loc_Fund_version_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_version_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_version_label">version</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_version_label" xlink:to="lbl_Fund_version_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_product" xlink:label="loc_Fund_product_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_product_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_product_label">product</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_product_label" xlink:to="lbl_Fund_product_label"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Product_restrictions" xlink:label="loc_Product_restrictions_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Product_restrictions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Product_restrictions_label">restrictions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Product_restrictions_label" xlink:to="lbl_Product_restrictions_label"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/definition" xlink:type="simple" xlink:href="update_super_product.xbrl.xsd#definition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/definition">
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_sender" xlink:label="loc_Request_sender_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_sender_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_sender_definition">A unique public identifier issued to all entities registered in the Australian Business Register (ABR), to be used in their dealings with government. Companies registered under the Corporations Law and business entities carrying on an enterprise in Australia are entitled to an ABN.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_sender_definition" xlink:to="lbl_Request_sender_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_start" xlink:label="loc_Request_start_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_start_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_start_definition">A specific day of a month in a year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_start_definition" xlink:to="lbl_Request_start_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_end" xlink:label="loc_Request_end_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_end_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_end_definition">A specific day of a month in a year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_end_definition" xlink:to="lbl_Request_end_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_name" xlink:label="loc_Request_name_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_name_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_name_definition">The full name by which an organisation is known.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_name_definition" xlink:to="lbl_Request_name_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_abn" xlink:label="loc_Fund_abn_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_abn_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_abn_definition">A unique public identifier issued to all entities registered in the Australian Business Register (ABR), to be used in their dealings with government. Companies registered under the Corporations Law and business entities carrying on an enterprise in Australia are entitled to an ABN.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_abn_definition" xlink:to="lbl_Fund_abn_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_name" xlink:label="loc_Fund_name_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_name_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_name_definition">The full name by which an organisation is known.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_name_definition" xlink:to="lbl_Fund_name_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_ebms3Profile" xlink:label="loc_Fund_ebms3Profile_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_ebms3Profile_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_ebms3Profile_definition">This is the code to indicate the profile selected by an entity  to state their capability  to enable the secure exchange of business to business transactions using the ebMS3  (Electronic Business Messaging Service 3) standard.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_ebms3Profile_definition" xlink:to="lbl_Fund_ebms3Profile_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_version" xlink:label="loc_Fund_version_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_version_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_version_definition">This is the statement of standards and version for which the entity is certified.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_version_definition" xlink:to="lbl_Fund_version_definition"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Product_restrictions" xlink:label="loc_Product_restrictions_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Product_restrictions_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Product_restrictions_definition">This indicates whether the superannuation product has restrictions on accepting contributions from employers.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Product_restrictions_definition" xlink:to="lbl_Product_restrictions_definition"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/guidance" xlink:type="simple" xlink:href="update_super_product.xbrl.xsd#guidance"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/guidance">
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_ebms3Profile" xlink:label="loc_Fund_ebms3Profile_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_ebms3Profile_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_ebms3Profile_guidance">Valid values are:
+Ultra-light  
+Light 
+High-end 
+Large-volume 
+Temporary-entry 
+Application-gateway
+
+For more information regarding ebMS3 Capability Profile, refer to Data and Payment Standards - Message Orchestration and Profiles (Version 1.1) available on www.ato.gov.au</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_ebms3Profile_guidance" xlink:to="lbl_Fund_ebms3Profile_guidance"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Product_restrictions" xlink:label="loc_Product_restrictions_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Product_restrictions_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Product_restrictions_guidance">A choice of TRUE/FALSE values.
+true = Product has restrictions on contributions from some employers
+false = Product has no restrictions on contributions from employers</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Product_restrictions_guidance" xlink:to="lbl_Product_restrictions_guidance"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/comment" xlink:type="simple" xlink:href="update_super_product.xbrl.xsd#comment"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/comment">
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_start" xlink:label="loc_Request_start_comment"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_start_comment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_start_comment">The date the super product listing takes effect</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_start_comment" xlink:to="lbl_Request_start_comment"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Request_end" xlink:label="loc_Request_end_comment"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Request_end_comment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Request_end_comment">The date the super product listing ends</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Request_end_comment" xlink:to="lbl_Request_end_comment"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_ebms3Profile" xlink:label="loc_Fund_ebms3Profile_comment"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_ebms3Profile_comment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_ebms3Profile_comment">The fund's profile for secure transactions using ebMS3 web services</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_ebms3Profile_comment" xlink:to="lbl_Fund_ebms3Profile_comment"/>
+    <link:loc xlink:type="locator" xlink:href="update_super_product.xbrl.xsd#Fund_version" xlink:label="loc_Fund_version_comment"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Fund_version_comment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Fund_version_comment">The standard and version the fund is certified for</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Fund_version_comment" xlink:to="lbl_Fund_version_comment"/>
+  </link:labelLink>
+</link:linkbase>

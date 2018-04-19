@@ -29,7 +29,6 @@
       </tns:Sender_email>
       <tns:Sender_phone>
         <tns:Phone_usageCode contextRef="c0001">foo</tns:Phone_usageCode>
-        <tns:Phone_areaCode contextRef="c0001">foo</tns:Phone_areaCode>
         <tns:Phone_number contextRef="c0001">foo</tns:Phone_number>
       </tns:Sender_phone>
     </tns:Request_sender>

@@ -20,7 +20,7 @@
 
 #### receiving: [FundMembership](#receiving)
 
-#### usi ([Superannuation Fund Details Unique Superannuation Identifier](http://definitions.ausdx.io/definition/trc/de7395)): string
+#### usi ([Unique Superannuation Identifier](http://super.shuck.io/define/de1)): string
 
 The unique superannuation identifier is used for identifying the product within the fund which the member account belongs to.
 
@@ -28,17 +28,9 @@ The unique superannuation identifier is used for identifying the product within 
 
 #### person: [Person](#person)
 
-#### sex ([Person Demographic Details Sex Code](http://definitions.ausdx.io/definition/trc/de57)): string
+#### sex ([Person Sex Code](http://super.shuck.io/define/de2)): string
 
 A code indicating the biological distinction between male and female as reported by a person or as determined by an interviewer.
-
-
-
-Valid values are:
-1 = Male 
-2 = Female
-3 = Intersex or Indeterminate
-0 = Not stated or inadequately described
 
 
 
@@ -98,25 +90,9 @@ The unique superannuation identifier is used for identifying the product within 
 
 Name and Value pair for any potential future needs
 
-#### name ([OtherDetailsName](http://super.shuck.io/define/de1)): string
+#### name: string
 
-The name of a data item
-
-
-
-This element is only to be used when a defect is found in the super stream standard, and extra data needs to be sent.
-
-
-
-#### value ([OtherDetailsValue](http://super.shuck.io/define/de2)): string
-
-The value of a data item
-
-
-
-This element is only to be used when a defect is found in the super stream standard, and extra data needs to be sent.
-
-
+#### value: string
 
 
 ## Sender
@@ -296,15 +272,9 @@ The code that determines the primary use of the telephone.
 
 
 
-#### areaCode ([Electronic Contact Telephone Area Code](http://definitions.ausdx.io/definition/trc/de48)): string
+#### number ([Phone number](http://super.shuck.io/define/de3)): string
 
-This element describes a standard Australian Area Code as used in conjunction with telephone numbers.
-
-
-
-#### number ([Electronic Contact Telephone Minimal Number](http://definitions.ausdx.io/definition/trc/de52)): string
-
-The number that is associated to a unique provision of telephone service.
+A number provided by a telephone service provider, used to uniquely identify a particular phone
 
 
 

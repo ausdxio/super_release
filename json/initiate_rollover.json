@@ -16,7 +16,6 @@
     },
     "phone": {
       "usageCode": "foo",
-      "areaCode": "foo",
       "number": "foo"
     }
   },

@@ -1,0 +1,32 @@
+<xbrli:xbrl xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="update_super_product.xbrl.xsd"/>
+  <xbrli:context id="c0001">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://abr.gov.au/abn">0123456789</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>1970-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0001">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <tns:Request>
+    <tns:Request_sender contextRef="c0001">foo</tns:Request_sender>
+    <tns:Request_start contextRef="c0001">foo</tns:Request_start>
+    <tns:Request_end contextRef="c0001">foo</tns:Request_end>
+    <tns:Request_name contextRef="c0001">foo</tns:Request_name>
+    <tns:Request_fund>
+      <tns:Fund_abn contextRef="c0001">foo</tns:Fund_abn>
+      <tns:Fund_name contextRef="c0001">foo</tns:Fund_name>
+      <tns:Fund_ebms3Profile contextRef="c0001">foo</tns:Fund_ebms3Profile>
+      <tns:Fund_version contextRef="c0001">foo</tns:Fund_version>
+      <tns:Fund_product>
+        <tns:Product_restrictions contextRef="c0001">true</tns:Product_restrictions>
+      </tns:Fund_product>
+      <tns:Fund_product>
+        <tns:Product_restrictions contextRef="c0001">true</tns:Product_restrictions>
+      </tns:Fund_product>
+    </tns:Request_fund>
+  </tns:Request>
+</xbrli:xbrl>

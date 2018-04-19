@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Request">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sender" type="xs:string"/>
+        <xs:element name="start" type="xs:string"/>
+        <xs:element name="end" type="xs:string"/>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="fund" type="Fund"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Fund">
+    <xs:sequence>
+      <xs:element name="abn" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="ebms3Profile" type="xs:string"/>
+      <xs:element name="version" type="xs:string"/>
+      <xs:element name="products">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="product" type="Product"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Product">
+    <xs:sequence>
+      <xs:element name="restrictions" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
