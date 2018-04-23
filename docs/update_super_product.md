@@ -1,5 +1,7 @@
 # update_super_product
 
+![generated model image](update_super_product.svg)
+
 ## Request
 
 #### sender ([Identifiers Australian Business Number Identifier](http://definitions.ausdx.io/definition/trc/de26)): string

@@ -1,5 +1,7 @@
 # stic_request
 
+![generated model image](stic_request.svg)
+
 ## Request
 
 #### sender ([Identifiers Australian Business Number Identifier](http://definitions.ausdx.io/definition/trc/de26)): string

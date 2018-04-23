@@ -1,5 +1,7 @@
 # initiate_rollover
 
+![generated model image](initiate_rollover.svg)
+
 ## Request
 
 #### sender: [Sender](#sender)
